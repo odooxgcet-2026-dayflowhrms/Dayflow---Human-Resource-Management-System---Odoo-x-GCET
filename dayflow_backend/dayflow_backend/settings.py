@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-(%w7w3(h1_(ode_yn3n==n0-&43u1&lwdbvcwm-&v1mlo$^or0
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
@@ -143,3 +143,4 @@ STATIC_URL = 'static/'
 
 CORS_ALLOW_ALL_ORIGINS = True
 CSRF_TRUSTED_ORIGINS = ['https://effervescent-cobbler-df0a50.netlify.app']
+
